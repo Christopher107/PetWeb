@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6407bb5b1cc646cc8fe19d57ea7e5379" Name="Diagram1" ZoomLevel="60">
+        <EntityTypeShape EntityType="PetWebModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="2.375" />
+        <EntityTypeShape EntityType="PetWebModel.AspNetRoles" Width="1.5" PointX="3.75" PointY="4.375" />
+        <EntityTypeShape EntityType="PetWebModel.AspNetUserClaims" Width="1.5" PointX="8.25" PointY="5.75" />
+        <EntityTypeShape EntityType="PetWebModel.AspNetUserLogins" Width="1.5" PointX="8.25" PointY="14.5" />
+        <EntityTypeShape EntityType="PetWebModel.AspNetUsers" Width="1.5" PointX="6" PointY="0.75" />
+        <EntityTypeShape EntityType="PetWebModel.AtencionVeterinaria" Width="1.5" PointX="8.25" PointY="10.125" />
+        <EntityTypeShape EntityType="PetWebModel.Contacto" Width="1.5" PointX="3" PointY="19.5" />
+        <EntityTypeShape EntityType="PetWebModel.ControlDesparacitaciones" Width="1.5" PointX="10.5" PointY="14.125" />
+        <EntityTypeShape EntityType="PetWebModel.ControlVacuna" Width="1.5" PointX="10.5" PointY="10.5" />
+        <EntityTypeShape EntityType="PetWebModel.DueñoMascota" Width="1.5" PointX="0.75" PointY="10.75" />
+        <EntityTypeShape EntityType="PetWebModel.Especie" Width="1.5" PointX="3.75" PointY="6.875" />
+        <EntityTypeShape EntityType="PetWebModel.ExamenClinico" Width="1.5" PointX="10.5" PointY="6.625" />
+        <EntityTypeShape EntityType="PetWebModel.Mascota" Width="1.5" PointX="6" PointY="9.75" />
+        <EntityTypeShape EntityType="PetWebModel.Raza" Width="1.5" PointX="1.5" PointY="7" />
+        <EntityTypeShape EntityType="PetWebModel.Sucursal" Width="1.5" PointX="6" PointY="15" />
+        <EntityTypeShape EntityType="PetWebModel.sysdiagrams" Width="1.5" PointX="8.75" PointY="2.375" />
+        <EntityTypeShape EntityType="PetWebModel.Ubicacion" Width="1.5" PointX="3" PointY="10.375" />
+        <EntityTypeShape EntityType="PetWebModel.Veterinaria" Width="1.5" PointX="3.75" PointY="15.375" />
+        <AssociationConnector Association="PetWebModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="PetWebModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="PetWebModel.FK__AtencionV__Usuar__05D8E0BE" />
+        <AssociationConnector Association="PetWebModel.FK__Sucursal__Usuari__71D1E811" />
+        <AssociationConnector Association="PetWebModel.FK__AtencionV__Sucur__06CD04F7" />
+        <AssociationConnector Association="PetWebModel.FK__AtencionVeterina__07C12930" />
+        <AssociationConnector Association="PetWebModel.FK__ControlDe__Atenc__114A936A" />
+        <AssociationConnector Association="PetWebModel.FK__ControlVa__Atenc__0D7A0286" />
+        <AssociationConnector Association="PetWebModel.FK__ExamenCli__Atenc__0A9D95DB" />
+        <AssociationConnector Association="PetWebModel.FK__Contacto__7B5B524B" />
+        <AssociationConnector Association="PetWebModel.FK__Mascota__02084FDA" />
+        <AssociationConnector Association="PetWebModel.FK__Ubicacion__7F2BE32F" />
+        <AssociationConnector Association="PetWebModel.FK__Especie__Raza__76969D2E" />
+        <AssociationConnector Association="PetWebModel.FK__Mascota__Especie__02FC7413" />
+        <AssociationConnector Association="PetWebModel.FK__Sucursal__Veteri__70DDC3D8" />
+        <AssociationConnector Association="PetWebModel.FK__Ubicacion__Sucur__7E37BEF6" />
+        <AssociationConnector Association="PetWebModel.AspNetUserRoles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
